@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: guestbook
-        image: quay.io/rawagner/guestbook:v4
+        image: quay.io/rawagner/guestbook-go:v4
         ports:
         - name: http-server
           containerPort: 3000
